@@ -1,0 +1,8 @@
+[2023-12-04 11:30:18.696] - 30960 INFO [restartedMain] --- org.apache.catalina.core.StandardService: Starting service [Tomcat]
+[2023-12-04 11:30:18.727] - 30960 INFO [restartedMain] --- org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.33]
+[2023-12-04 11:30:18.995] - 30960 INFO [restartedMain] --- org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+[2023-12-04 11:30:19.291] - 30960 INFO [restartedMain] --- org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-12-04 11:30:19.441] - 30960 INFO [restartedMain] --- org.hibernate.Version: HHH000412: Hibernate ORM core version 5.4.12.Final
+[2023-12-04 11:30:19.715] - 30960 INFO [restartedMain] --- org.hibernate.annotations.common.Version: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2023-12-04 11:30:20.202] - 30960 INFO [restartedMain] --- org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-04 11:30:21.449] - 30960 INFO [restartedMain] --- org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
