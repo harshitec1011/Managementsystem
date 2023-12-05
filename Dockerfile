@@ -5,10 +5,10 @@ FROM openjdk:17-jre-slim
 WORKDIR /app
 
 # Copy the JAR file into the container at /app
-COPY target/your-application.jar /app/your-application.jar
+COPY target/FMS-SpringBoot-Backend.jar /app/FMS-SpringBoot-Backend.jar
 
 # Expose the port that the application will run on
 EXPOSE 8080
 
 # Specify the command to run on container startup
-CMD ["java", "-jar", "your-application.jar"]
+CMD ["java", "-jar", "FMS-SpringBoot-Backend.jar"]
