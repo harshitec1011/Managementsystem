@@ -124,8 +124,8 @@
 				<configuration>
 					<!-- Force alphabetical order to have a reproducible build -->
 					<skipTests>true</skipTests>
-<!--					<runOrder>alphabetical</runOrder>-->
-<!--					<useSystemClassLoader>false</useSystemClassLoader>-->
+					<runOrder>alphabetical</runOrder>
+					<useSystemClassLoader>false</useSystemClassLoader>
 				</configuration>
 			</plugin>
 		</plugins>
