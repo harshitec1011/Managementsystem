@@ -121,12 +121,12 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.2</version>
-<!--				<configuration>-->
-<!--					&lt;!&ndash; Force alphabetical order to have a reproducible build &ndash;&gt;-->
-<!--					<skipTests>true</skipTests>-->
+				<configuration>
+					<!-- Force alphabetical order to have a reproducible build -->
+					<skipTests>true</skipTests>
 <!--					<runOrder>alphabetical</runOrder>-->
 <!--					<useSystemClassLoader>false</useSystemClassLoader>-->
-<!--				</configuration>-->
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
